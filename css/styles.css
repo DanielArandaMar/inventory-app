@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    background: #0069ff;
+}
+
+.container .wrapper {
+    background: #fff;
+    margin: 10% auto;
+    border-radius: 2px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-top: none;
+    border-top: 5px solid  #5cb85c
+}
+
+.container .wrapper .form form input[type="text"],
+.container .wrapper .form form input[type="number"]
+{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid #fff;
+}
+
+.container .wrapper .form form button{
+    background: #5cb85c;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.container .wrapper .form form button:focus{
+    outline: none;
+}
+
+.container .wrapper .form form .col-3 .error-input{
+    border: 2px solid rgba(255, 70, 70, 0.5);
+    color: #F92D2D;
+}
+
+.container .wrapper .form form .col-3 .error-input:focus{
+    border: 2px solid rgba(255, 70, 70, 0.1);
+    color: #000000;
+}
+
+.container .wrapper .form {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+.container .wrapper .list,
+.container .wrapper .list-head
+{
+    margin: auto;
+    width: 80%;
+}
+
+.container .wrapper .list-head{
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.container .wrapper .list .item-list{
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+}
+
+.container .wrapper .header .error-message-disappear{
+    display: none;
+}
+
+.container .wrapper .header .error-message-appear{
+    display: inline-block;
+}
+
+.container .wrapper .warning-message-disappear{
+    display: none;
+}
+
+.container .wrapper .warning-message-appear{
+    display: inline-block;
+    width: 100%;
+}
+
